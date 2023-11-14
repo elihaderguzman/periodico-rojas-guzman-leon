@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dab88e;
+}
+.menu {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 0.5%;
+    height: 50px;
+    background-color: #56070C;
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.enlaces {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #C11F1F;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 25%;
+    float: left;
+    margin-left: 4%;
+    border-radius: 20px;
+}
+
+.enlaces:hover {
+    background-color: #56070C;
+}
+
+.cabecera {
+    display: flex;
+    align-items: center;
+    background-color: #56070C;
+    color: #fff;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.izquierda {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: #C11F1F;
+}
+.derecha {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  background-color: #C11F1F;
+}
+#logder {
+  height: 170px;
+  width: 90%;
+  margin-top: 5px;
+  margin-left: 5%;
+}
+#logiz {
+  height: 170px;
+  width: 90%;
+  margin-top: 5px;
+  margin-left: 5%;
+}
+
+.titulo {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: #C11F1F ;
+    flex-grow: 1;
+}
+#foto {
+    align-items: center;
+    height: 300px;
+    width: 30%;
+    margin-left: 35%;
+}
+#foto:hover {
+    transform: scale(2,2);
+    transition: 2.5s;
+}
+.no {
+    background-color: #C11F1F;
+    width: 90%;
+    margin-left: 5%;
+} 
+.t1{
+  margin-bottom: 50px;
+  text-align: center;
+}
+.t2{
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+
+
